@@ -307,10 +307,12 @@ svg {
   @media screen and (min-width: 900px) {
     .events {
       width: 125%; } }
-  @media screen and (min-width: 900px) {
-    .events .box {
-      float: right;
-      min-width: 28rem; } }
+  .events .box {
+    margin-bottom: 3rem; }
+    @media screen and (min-width: 900px) {
+      .events .box {
+        float: right;
+        min-width: 28rem; } }
 
 #event-map {
   border: 1px rgba(255, 255, 255, 0.75) solid;
