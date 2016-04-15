@@ -162,6 +162,9 @@ svg {
     color: #f639a5;
     text-decoration: none; }
 
+.hidden {
+  display: none; }
+
 .header {
   margin-bottom: 3rem;
   display: none;
