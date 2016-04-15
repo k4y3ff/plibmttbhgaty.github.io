@@ -86,4 +86,3 @@ function init() {
 
   updateMarkers();
 }
-;
