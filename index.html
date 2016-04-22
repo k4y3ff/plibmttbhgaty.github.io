@@ -105,6 +105,19 @@
   <p>Four to five hours seems to be about the right amount of time for this.</p>
 </div>
 
+<script type="text/javascript">
+  google.maps.event.addDomListener(
+    window,
+    "load",
+    function() {
+      $.get('events.json', {}, function(data) {
+        var upcomingEvents = $.grep(data, eventIsUpcoming);
+        new Plibmttbhgaty.EventMap().init(upcomingEvents);
+      });
+    }
+  );
+</script>
+
       <footer class="footer">
   <nav class="nav">
     <ul class="social-list">
